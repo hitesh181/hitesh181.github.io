@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body{background:#3F3F3F;
+margin:0;
+font-family: Arial, Helvetica, sans-serif;
+width:100%;
+overflow:auto;
+}
+.header{padding:30px;
+text-align:center;
+color:#ffffff;
+font-size:17px;
+}
+.topnav{overflow:hidden;
+width:100%;
+backgroud:red;
+}
+.topnav a{float:left;
+color:#ffffff;
+text-decoration:none;
+padding:0px 20px;
+  transition:all .2s;
+
+}
+.society_button{font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+    transition:all .2s;
+
+}
+.topnav a:hover{color:#F1B241
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.content{display: none;
+  position: absolute;
+  min-width: 120px;
+  background:#555;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.6);
+  border-radius:7px;  
+  transition:all .2s;
+}
+.content a{float: none;
+  color: #ffffff;
+  padding: 12px 15px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown:hover .content{display:block;}
+.dropdown:hover .society_button{color:#F1B241
+}
+.aboutUs, .ourTeam, .contact{padding:10px;
+text-align:center;
+color:white;
+background:#999;
+}
+.ourTeam{background:#777;}
+
+.postholder{border-radius:50%;
+height:100px;
+padding:10px;
+width:100px;
+color:black;
+background:#f1f1f1;
+margin-right:10px;
+}
+.contact #phone_number{position:absolute;
+right: 0px;
+bottom:0px;
+}
+</style>
+<body>
+<div class=header>
+	<h1>Hyperion Website</h1>
+    <h2>A demo website by hyperion</h2>
+</div>
+<div class=topnav>
+	<a href=# style="font-size:22px">Hyperion Logo</a>
+	<div class=topnav-container style="float:right; overflow:hidden">
+	<a href=#>Home</a>
+    <div class=dropdown>
+    	<button class="society_button">Societies 
+        <i class="fa fa-caret-down"></i>
+        </button>
+        <div class=content>
+        	<a href=#>Conundrum</a>
+            <a href=#>Chanakya</a>
+            <a href=#>Diversity</a>
+            <a href=#>Impressions</a>
+            <a href=#>Iris</a>
+            <a href=#>Navrang</a>
+            <a href=#>Rudra</a>
+            <a href=#>Raaga</a>
+            <a href=#>Techwhiz</a>
+        </div>
+    </div>
+    <a href=#>Contact</a>
+    </div>
+</div>
+
+<tr>
+
+<div class=aboutUs>
+	<h2>All About Hyperion</h2>
+</div>
+
+<tr>
+
+<div class= ourTeam>
+	<h1>Our Team</h1>
+    <span class=postholder>President</span><br><br><br><br>
+    <span class=postholder>Vice- President</span>
+    <span class=postholder>Secretary</span>
+    <span class=postholder>Join- Secretary</span><br><br><br><br>
+    <span class=postholder>Treasurear</span>
+    <span class=postholder>Coordintor</span>
+</div>
+
+<div class= contact>
+	<h2>Contact Form</h2>
+    <input type="" placeholder = Email..>
+    <button type=submit>Submit</button>
+    <span id=phone_number>Phone Number:- 123456789</span>
+</div>
+<script>
+</script>
+    
+</body>
+</html>
